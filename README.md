@@ -1,5 +1,11 @@
-# my-first-website
-on a branch
-add a line
-<p>using html</p>
-<p>My name is Rachel</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> First Page </title>
+  </head>
+  <body>
+    <h1> Glasgow Student Guide </h1>
+
+    <p> This is a guide for new students in Glasgow </p>
+  </body>
+</html>
