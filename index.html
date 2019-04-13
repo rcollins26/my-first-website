@@ -1,13 +1,39 @@
-<!DOCKTYPE html>
 <html>
 <head>
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  </style>
   <title> codefirst girl site </title>
-    <link rel="stylesheet" type="text/css" href ="css/styles.css">
 </head>
-  <body style="background-color:lightblue;color:white;">
-  <h1 style ="background-color:DodgerBlue;">Glasgow Student Guide</h1>
+
+  <body style="background-color:lightblue">
+  <h1 style ="background-color:DodgerBlue;background-size:cover;color:white;font-family:georgia;
+  text-align:center">Glasgow Student Guide</h1>
   <div>
   <h2>New to the city? learn all the secrets of the true capital of Scotland!</h2>
-
-
+  <div class="row">
+    <div class="column">
+      <img src="images/christmas.jpg" alt="Snow" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="images/glasgow.jpg" alt="Forest" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="images/museum.jpg" alt="Mountains" style="width:100%">
+    </div>
+  </div>
 </body>
+</html>
