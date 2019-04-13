@@ -1,6 +1,8 @@
-background-image: url(images/glasgow.JPG);
+
+<body style="background-image:url(images/glasgow.JPG)">
         font-family: "Geogia", "Times New Roman", Times, serif;
         border-color: black;
         border-width: 1px;
         border-style: solid;
         background-color: #a7cece;
+</body>
