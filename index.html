@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style>
+
+  * {
+    box-sizing: border-box;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  </style>
   <title> codefirst girl site </title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min. css" crossorigin="anonymous">
