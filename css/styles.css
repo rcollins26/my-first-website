@@ -11,3 +11,13 @@ ul {
   color: black;
 
 }
+
+div {
+  text-align: left;
+  font-family: georgia;
+}
+
+h2 {
+  font-family: georgia;
+  color: white;
+}
