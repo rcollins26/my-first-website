@@ -2,5 +2,13 @@ h1 {
   text-align: center;
   background-color: purple;
   font-family: georgia;
+  color: white;
 
+}
+
+ul {
+  background-color: pink;
+  font-family: georgia;
+  color: black;
+  
 }
