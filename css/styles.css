@@ -12,6 +12,11 @@ ul {
 
 }
 
+image {
+  width: 100%
+  text-align: right;
+}
+
 div {
   text-align: left;
   font-family: georgia;
