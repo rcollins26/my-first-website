@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+  background-color: purple;
+  font-family: georgia;
+  color: white;
+
+}
+
+ul {
+  font-family: georgia;
+  color: black;
+
+}
+
+div {
+  text-align: left;
+  font-family: georgia;
+}
+
+h2 {
+  font-family: georgia;
+  color: purple;
+}
